@@ -1,4 +1,32 @@
-.header-image{
-    max-width: 100%;
-    max-height: 100%;
+.Header-Container{
+    background-image: url("../../images/newimg.png");
+    background-color: #ccc;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+.button-container{
+    padding: 400px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-button{
+    color: white;
+    background: #000;
+    margin-right: 15px;
+    border: none;
+    text-decoration: none;
+    padding: 15px;
+}
+.header-btn-link{
+    text-decoration: none;
+    color: #fff;
+}
+.header-btn-link:hover{
+    text-decoration: none;
+    color: #fff;
 }

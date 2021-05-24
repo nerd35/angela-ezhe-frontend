@@ -11,7 +11,7 @@ const Layout = (props) => {
   return(
     <>
         <Header />
-        <MenuHeader />
+        {/* <MenuHeader /> */}
         {props.children}
     </>
    )
