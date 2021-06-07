@@ -27,7 +27,7 @@ const ProductStore = (props) => {
       {Object.keys(product.productsByPrice).map((key, index) => {
         return (
           <Card
-            headerLeft={`${props.match.params.slug}  ${priceRange[key]}`}
+            headerLeft={`${props.match.params.slug} under  ${priceRange[key]}`}
             headerRight={
               <MaterialButton
                 title={"VIEW ALL"}
